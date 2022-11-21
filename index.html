@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drums</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Drumss</h1>
+    <section class="setup">
+
+        <div class="drum">
+            <button id="keya" onclick="playA()" class="keys">A</button>
+            <button id="keyb" onclick="playB()" class="keys">B</button>
+            <button id="keyc" onclick="playC()" class="keys">C</button>
+            <button id="keyd" onclick="playD()" class="keys">D</button>
+            <button id="keye" onclick="playE()" class="keys">E</button>
+            <button id="keyf" onclick="playF()" class="keys">F</button>
+            <button id="keyg" onclick="playG()" class="keys">G</button>
+            <button id="keyh" onclick="playH()" class="keys">H</button>
+            <button id="keyi" onclick="playI()" class="keys">I</button>
+        </div>
+        <div class="preview">
+            <label>
+                Digite aqui as teclas              
+            </label>
+            <input type="text" class="input">
+            <button class="clear" onclick="clean()">Limpar</button>
+            
+        </div>
+    </section>
+
+
+
+    <audio id="soundA" src="../sounds/keya.wav"></audio>
+    <audio id="soundB" src="../sounds/keyb.wav"></audio>
+    <audio id="soundC" src="../sounds/keyc.wav"></audio>
+    <audio id="soundD" src="../sounds/keyd.wav"></audio>
+    <audio id="soundE" src="../sounds/keye.wav"></audio>
+    <audio id="soundF" src="../sounds/keyf.wav"></audio>
+    <audio id="soundG" src="../sounds/keyg.wav"></audio>
+    <audio id="soundH" src="../sounds/keyh.wav"></audio>
+    <audio id="soundI" src="../sounds/keyi.wav"></audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
